@@ -1,5 +1,5 @@
 body {
-    background: rgb(255, 255, 255);
+    background: rgb(109, 109, 109);
     margin: 0;
 }
 
@@ -80,10 +80,6 @@ button {
     max-width: 150px;
 }
 
-.second-title {
-    margin-bottom: 32px;
-
-}
 .leaf{
     width: 100px;
     height: 100px;
@@ -94,6 +90,7 @@ button {
 
 .outter-container {
     background-color: rgb(255, 255, 255);
+    padding-bottom: 48px;
 }
 /*TEXT COLOURING, FONTS AND SIZES*/
 
@@ -122,12 +119,35 @@ h2 {
         font-weight: 900;
         color: #000000;
         text-align: center;
+        padding-top: 32px;
 }
 .subtext {
     text-align: center;
 }
 /*TEXT COLOURING, FONTS AND SIZES*/
 
+.third-container{
+    background-color: #E5E7EB;
+    padding: 64px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-right: 25%;
+    padding-left: 25%;
+}
+.quote{
+    font-size: 32px;
+    color: #1F2937;
 
-
+}
+.who-is-it {
+    font-size: 18px;
+    font-weight: 750;
+    display: flex;
+    align-self: flex-end;
+}
+.final-container{
+    background-color: white;
+    padding: 25px;
+}
 
